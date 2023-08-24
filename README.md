@@ -17,7 +17,7 @@ Before you begin, ensure you have the following:
 
   I am using version 8.5.92 
   
-2. **Extract Tomcat:** Extract the downloaded Apache Tomcat archive to a directory of your choice. For example, to extract it to `/opt`:
+2. **Extract Tomcat:** Extract the downloaded Apache Tomcat archive to a directory of your choice.
 
    ```shell
    tar -xvfx apache-tomcat-<version>.tar.gz
