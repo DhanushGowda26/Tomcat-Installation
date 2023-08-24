@@ -71,4 +71,4 @@ Your Tomcat server will be up and running
 
   To login to Manager App, username and password is "admin", you can modify this if required in the above.
 
-  ## Congrulations, Now you can upload youe war file and Deploy.
+  ## Congrulations, Now you can upload your war file and Deploy.
