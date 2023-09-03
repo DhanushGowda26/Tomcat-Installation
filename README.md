@@ -25,7 +25,7 @@ Before you begin, ensure you have the following:
 3. Navigate to following Directory
 
     ```shell
-    cd /home/<user>/tomcat/apache-tomcat-<version>/bin/
+    cd /home/<user>/apache-tomcat-<version>/bin/
 
 4. Start Tomcat: To start Tomcat, use the following command:
 
