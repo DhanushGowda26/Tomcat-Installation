@@ -37,7 +37,7 @@ Your Tomcat server will be up and running
 5. Navigate to following direectory
 
     ```shell
-    /home/<user>/tomcat/apache-tomcat-<version>/webapps/host-manager/META-INF/
+    /home/<user>/apache-tomcat-<version>/webapps/host-manager/META-INF/
     
 6. You will have context.xml, use your file editor(vim) to delete the following contents in context.xml
    
@@ -47,7 +47,7 @@ Your Tomcat server will be up and running
 7. Navigate to following direectory
 
     ```shell
-    /home/<user>/tomcat/apache-tomcat-<version>/webapps/manager/META-INF/
+    /home/<user>/apache-tomcat-<version>/webapps/manager/META-INF/
 
 8. Repeat the same, here also you will have context.xml, go and delete the same content you did before.
 
@@ -56,7 +56,7 @@ Your Tomcat server will be up and running
 10. Navigate to following directory
 
     ```shell
-    cd /home/<user>/tomcat/apache-tomcat-<version>/conf/
+    cd /home/<user>/apache-tomcat-<version>/conf/
 
 11. You will have tomcat-users.xml, add following to it.
 
