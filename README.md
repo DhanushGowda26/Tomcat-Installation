@@ -72,3 +72,30 @@ Your Tomcat server will be up and running
   To login to Manager App, username and password is "admin", you can modify this if required in the above.
 
   ## Congrulations, Now you can upload your war file and Deploy.
+
+  To enable Tomcat even after boot, Navigate to
+
+   ```shell
+      sudo vim /etc/systemd/system/tomcat.service
+```
+   paste the following in tomcat.service
+
+ ```shell
+   [Unit]
+   Description=Tomcat Servlet Container
+   After=network.target
+
+   [Service] 
+   Type=forking
+
+   ExecStart=/path/to/tomcat/bin/startup.sh
+   ExecStop=/path/to/tomcat/bin/shutdown.sh
+
+   [Install]
+   WantedBy=multi-user.target
+```
+Run the following
+
+```shell
+systemctl enable apache-tomcat-<version>
+```
