@@ -20,7 +20,7 @@ Before you begin, ensure you have the following:
 2. **Extract Tomcat:** Extract the downloaded Apache Tomcat archive to a directory of your choice.
 
    ```shell
-   tar -xvfz apache-tomcat-<version>.tar.gz
+   tar -xvzf apache-tomcat-<version>.tar.gz
 
 3. Navigate to following Directory
 
